@@ -1,0 +1,37 @@
+{
+  "name": "swadtea-api",
+  "version": "1.0.0",
+  "description": "SwadTea Prjects Create API",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js localhost 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Rohit_Tectiq@bitbucket.org/m-square-systems/swadtea-api.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "using",
+    "Develop",
+    "API"
+  ],
+  "author": "Tectiq Technology Pvt. Ltd.",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/m-square-systems/swadtea-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0",
+    "aws-sdk": "^2.1028.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.4",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
